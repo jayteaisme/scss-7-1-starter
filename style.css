@@ -17,6 +17,7 @@ header {
   color: green;
   font-style: italic;
   text-align: center;
+  background-color: green;
 }
 .product-item-title:hover {
   color: red;

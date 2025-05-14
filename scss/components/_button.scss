@@ -12,6 +12,7 @@ $color_btn:(
   }
   @content;
   text-align: center;
+  background-color: map-get($map: $color_btn, $key: c3 );
 }
 
 .product-item-title{
