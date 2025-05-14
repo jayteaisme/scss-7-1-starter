@@ -1,0 +1,20 @@
+
+@use '../abstracts/variables';
+$color_btn:(
+  c1:red,
+  c2:blue,
+  c3:green,
+);
+@mixin reset($color_de:map-get($map: $color_btn, $key: c3 )){
+  color: $color_de;
+  &:hover{
+    color: map-get($map: $color_btn, $key: c1);
+  }
+  @content;
+}
+
+.product-item-title{
+  @include reset(){
+    font-style: italic
+  };
+}

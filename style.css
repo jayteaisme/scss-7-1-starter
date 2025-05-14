@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: #3498db;
+}
+
+.product-item-title {
+  color: green;
+  font-style: italic;
+}
+.product-item-title:hover {
+  color: red;
+}
+
+.home {
+  padding: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
